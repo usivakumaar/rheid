@@ -56,7 +56,7 @@ export class UserProfile extends Component {
                             color="#ebc66c"
 
                             buttonStyle={styles.button}
-                            onPress={() => this.props.navigation.navigate('SettingScreen')}
+                            onPress={() => this.props.navigation.navigate('RiderListScreen')}
                         />
                     </View>
                     <View style={{ width: '50%', height: 120, padding: 3 }} >
@@ -64,7 +64,7 @@ export class UserProfile extends Component {
                             title="I offer rides"
                             color="#ebc66c"
                             buttonStyle={styles.button}
-                            onPress={() => this.props.navigation.navigate('SettingScreen')}
+                            onPress={() => this.props.navigation.navigate('RiderListScreen')}
                         />
 
 
